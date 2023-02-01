@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "es2020"],
+
+    // Output settings
+    "module": "ES2020",
+    "target": "ES2017",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "preserveConstEnums": true,
+    "useUnknownInCatchVariables": false,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    "composite": true,
+    "rootDir": ".",
+    "outDir": "./dist/dts",
+
+    "checkJs": false,
+    "allowJs": true,
+    "jsx": "react",
+    "resolveJsonModule": true
+  },
+  "include": ["./src", "./test", "./typings", "./package.json"],
+  "exclude": ["node_modules/**"]
+}

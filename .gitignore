@@ -1,5 +1,5 @@
-./posts
-!./posts/.keep
+posts/*.md
+!posts/.keep
 tmp
 
 
